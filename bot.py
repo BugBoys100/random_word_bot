@@ -118,4 +118,4 @@ class MyClient(discord.Client):
 
 Anime.Fade(Center.Center(run), Colors.red_to_yellow, Colorate.Vertical, enter=True)
 client = MyClient()
-client.run('OTM3MDAxNDk2Mjc1NDY4NDA5.YfVYpQ.o-Y5LS--C86miCRukzngYFseGjI')
+client.run(TOKEN)
