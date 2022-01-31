@@ -8,7 +8,8 @@ Pour pouvoir utiliser Random Word Bot, il vous faut :
 - Modules [discord.py](https://pypi.org/project/discord.py/), [Pystyle](https://pypi.org/project/pystyle/), [requests](https://pypi.org/project/requests/) et [larousse_api](https://github.com/quentin-dev/larousse_api)
 ## Installation 📲
 
-Pour installer Random World, éxecutez `install.bat`
+* Clonez ou téléchargez le repo ([https://github.com/BugBoys100/random_word_bot.git](https://github.com/BugBoys100/random_word_bot.git)) 
+* éxecutez `install.bat`
 <br>Ou installez les modules uns-à-uns via la commande `py -m pip install [nom du module]`
 
 ## Démarrage 1️⃣
