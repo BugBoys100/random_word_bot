@@ -32,7 +32,18 @@ run = r'''
                      | |   |  _|   |  _ \| | | || |                               
                      | |___| |___  | |_) | |_| || |                               
                      |_____|_____| |____/ \___/ |_|                               
-                                                                                  
+
+                            
+                            
+                                      _        _                  
+                                    | |      | |     _           
+               ___  _   _        ___| |_ _ __| |   _| |_     ___ 
+              / _ \| | | |      / __| __| '__| |  |_   _|   / __|
+             | (_) | |_| |     | (__| |_| |  | |    |_|    | (__ 
+              \___/ \__,_|      \___|\__|_|  |_|            \___|
+                                                     
+                                                     
+                                                                               
 '''[1:]
 
 
@@ -113,6 +124,16 @@ class MyClient(discord.Client):
                 return await message.reply('Saisie incorrecte de la commande, `!link [nombre entre 1 et 10]` \n__ex :__```!mot 2```')
 
 
+            #              __    __  ________  __        _______  
+            # |  \  |  \|        \|  \      |       \ 
+            # | $$  | $$| $$$$$$$$| $$      | $$$$$$$\
+            # | $$__| $$| $$__    | $$      | $$__/ $$
+            # | $$    $$| $$  \   | $$      | $$    $$
+            # | $$$$$$$$| $$$$$   | $$      | $$$$$$$ 
+            # | $$  | $$| $$_____ | $$_____ | $$      
+            # | $$  | $$| $$     \| $$     \| $$      
+            #  \$$   \$$ \$$$$$$$$ \$$$$$$$$ \$$                                              
+                                        
         elif message.content == '!help':
             return await message.reply('- Fais `!mot x` avec x qui est un nombre entier `entre 1 et 5` *(commande relativement lente)*\n- Fais `link x` avec x qui est un nombre entier `entre 1 et 10`')
 
